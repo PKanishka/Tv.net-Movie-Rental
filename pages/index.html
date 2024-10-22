@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index - TV.net</title>
+    <link rel="stylesheet" href="../assets/styles/styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <a href="#">TV.net</a>
+            <div class="user-info">
+                <span>Username :</span>
+                <a href="#" class="logout">Log Out</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Title Bar -->
+    <div class="title-bar">
+        <div class="filters">
+            <label for="title">Title :</label>
+            <input type="text" id="title" name="title" placeholder="Title">
+
+            <label for="genre">Genre :</label>
+            <select id="genre" name="genre">
+                <option value="">All</option>
+                <!-- Options will be dynamically generated in JavaScript -->
+            </select>
+
+            <label for="releaseYear">Release Year :</label>
+            <input type="text" id="releaseYear" name="releaseYear" placeholder="Year">
+
+            <button id="filter-btn">Filter</button>
+        </div>
+
+        <div class="pagination">
+            <!-- Page numbers will be dynamically inserted here -->
+        </div>
+
+        <div class="cart" id="cartIcon">
+            <img src="../assets/images/Cart.png" alt="Cart Icon" class="cart-icon">
+            <span class="cart-count" id="cartCount">0</span>
+        </div>
+    </div>
+
+        <!-- Rental Cart Modal (Initially Hidden) -->
+        <div id="rental-popup" class="rental-popup" style="display:none;">
+            <div class="popup-content">
+                <div class="popup-header">
+                    <h2>Finalize Rental</h2>
+                    <div id="success-message" style="display:none; color:green; text-align:center; margin-bottom: 10px;"></div>
+                    <span class="close">&times;</span>
+                </div>
+                <div class="popup-body">
+                    <div class="package-info">
+                        <p>Delivery Package : <span id="package-id">MUI2OL8</span></p>
+                    </div>
+                    <div class="user-info-section">
+                        <img src="../assets/images/user.png" alt="User Avatar">
+                        <h3>9922030300</h3>
+                        <p id="user-email-popup">Username</p>
+                    </div>
+                    <div class="delivery-info">
+                        <input type="text" id="delivery-address" placeholder="Delivery Address">
+                        <input type="text" id="contact-number" placeholder="Contact Number">
+                        <input type="date" id="return-date" placeholder="Return Date">
+                        <button class="btn-confirm">Confirm Delivery</button>
+                    </div>
+                    <div class="rental-cart-section">
+                        <h3>Rental Cart</h3>
+                        <ul id="cart-items">
+                            <!-- Cart items will be dynamically added here -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+    <!-- Movie Cards Section -->
+    <div class="movies-container">
+        <!-- Movie Cards will be dynamically generated here -->
+    </div>
+
+    <script src="../scripts/app.js"></script>
+    <script src="../scripts/movies.js"></script>
+
+</body>
+</html>

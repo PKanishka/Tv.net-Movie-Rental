@@ -1,0 +1,581 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    background-color: #014B79;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.user-info {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.user-info span {
+    color: white;
+    font-size: 14px;
+}
+
+.logout {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Title Bar */
+.title-bar {
+    background-color: #ffffff;
+    color:#014B79;
+    font-size: 16px;
+    text-align: left;
+    padding: 10px 15px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid #014B79;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Login Form Specific Styles */
+.login-container,register-box {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    width: 350px;
+    height: 600px;
+    padding: 20px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    border: 1px solid #014B79;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-box img.avatar {
+    width: 140px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.login-box h2 {
+    color: #014B79;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-box input[type="text"]:focus,
+.login-box input[type="password"]:focus {
+    border-color: #014B79;
+    outline: none;
+}
+
+.login-box label {
+    font-size: 14px;
+    color: #014B79;
+    text-align: left;
+    display: block;
+    margin-bottom: 1px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container .btn {
+    width: 45%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-create {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.btn-login {
+    background-color: #014B79;
+    color: white;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.error-message {
+    margin-left: 5px;
+    color: red;
+    font-size: 0.9em;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+label {
+    flex-basis: 40%;
+    text-align: right;
+}
+
+input {
+    flex-basis: 60%;
+}
+
+/* Success message styling */
+.success-message {
+    color: green;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.loginErrorMessage {
+    color: red;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+/* index Filters (Title, Genre, Release Year) */
+.filters {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.filters label {
+    color: #014B79;
+    font-weight: normal;
+    width: 120px;
+    margin-right: 0px;
+    text-align: right;
+}
+
+.filters input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 150px;
+    margin-bottom: 0;
+}
+
+.filters select {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.filters button {
+    padding: 5px 10px;
+    background-color: #014B79;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.pagination span {
+    padding: 5px 10px;
+    background-color: #006399;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.pagination .page-number.active {
+    background-color: white;
+    color: #006399;
+    font-weight: bold;
+}
+
+/* Cart */
+.cart {
+    position: relative;
+}
+
+.cart-icon {
+    width: 28px;
+    height: 28px;
+}
+
+.cart-count {
+    background-color: red;
+    padding: 1px 5px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 12px;
+    right: -2px;
+    font-size: 12px;
+}
+
+.pcart-count {
+    background-color: red;
+    padding: 1px 5px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 12px;
+    right: -2px;
+    font-size: 12px;
+}
+
+/* Movie Cards Container */
+.movies-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);  /* 4 columns */
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Individual Movie Card */
+.movie-card {
+    background-color: #f4f8fb;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+}
+
+.movie-details {
+    padding: 10px;
+}
+
+.movie-details h3 {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #006399;
+}
+
+.movie-details p {
+    margin: 5px 0;
+    color: #333;
+}
+
+.movie-rating {
+    background-color: #006399;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    width: 50px;
+    margin: 0 auto;
+}
+
+.rent-button {
+    background-color: #006399;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Popup Styles */
+.rental-popup {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    z-index: 1000;
+    padding: 20px;
+    text-align: center;
+}
+
+.popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.popup-header h2 {
+    margin: 0;
+}
+
+.popup-header .close {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.user-info-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.user-info-section img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.user-info-section h3 {
+    margin: 10px 0 5px;
+}
+
+.user-info-section p {
+    color: #014B79;
+}
+
+.delivery-info {
+    margin-top: 10px;
+}
+
+.delivery-info input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.btn-confirm {
+    background-color: #014B79;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rental-cart-section {
+    margin-top: 20px;
+}
+
+.rental-cart-section h3 {
+    margin-bottom: 10px;
+}
+
+.rental-cart-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.rental-cart-section li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.rental-cart-section button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user-info {
+    font-size: 1.2em;
+}
+
+.user-info a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+/* Profile Container Styling */
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 2100px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    min-height: 80vh;
+}
+/* Profile Container */
+.profile-section {
+    max-width: 450px; /* Updated width */
+    width: 100%; /* Ensures responsiveness */
+    height: 600px; 
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e8e8e8;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* User Avatar */
+.profile-section .user-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #1d5a84;
+    margin-bottom: 20px;
+}
+
+/* NIC Number */
+.profile-section h3 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+.profile-section .update-password-form label {
+    display: block;
+    text-align: left;
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #1d5a84;
+}
+
+.profile-section .input-container {
+    position: relative;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.profile-section input[type="text"],
+.profile-section input[type="password"] {
+    width: 100%; /* Full width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box; /* Ensure padding doesn't overflow */
+}
+
+/* Action Buttons */
+.profile-section .action-buttons {
+    margin-top: 20px;
+}
+
+.profile-section .action-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.profile-section .delete-account {
+    background-color: #d9534f;
+    color: white;
+}
+
+.profile-section .update-account {
+    background-color: #1d5a84;
+    color: white;
+}
+/* Active Rentals Styling */
+.rentals-section {
+    width: 30%;
+    padding: 0 20px;
+}
+
+.rentals-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.rentals-section li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.return-btn {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Watched Rentals Styling */
+.watched-rentals-section {
+    width: 30%;
+    padding-left: 20px;
+}
+
+.watched-rentals-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.watched-rentals-section li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}

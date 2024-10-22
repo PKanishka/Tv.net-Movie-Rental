@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<movies>
+  <movie>
+    <title>Love and Gelato</title>
+    <year>2023</year>
+    <genre>Rom-Com</genre>
+    <id>YM2X001</id>
+    <rating>7.8</rating>
+    <image>../assets/images/cover.jpg</image>
+  </movie>
+  <movie>
+    <title>Love</title>
+    <year>2023</year>
+    <genre>Rom-Com</genre>
+    <id>YM2X002</id>
+    <rating>7.8</rating>
+    <image>../assets/images/cover.jpg</image>
+  </movie>
+  <movie>
+    <title>Gelato</title>
+    <year>2023</year>
+    <genre>Rom-Com</genre>
+    <id>YM2X003</id>
+    <rating>7.8</rating>
+    <image>../assets/images/cover.jpg</image>
+  </movie>
+  <movie>
+    <title>Another Movie</title>
+    <year>2022</year>
+    <genre>Drama</genre>
+    <id>AB123</id>
+    <rating>8.5</rating>
+    <image>../assets/images/cover.jpg</image>
+  </movie>
+  <movie>
+    <title>lg</title>
+    <genre>romance</genre>
+    <year>2024</year>
+    <rating>8.1</rating>
+    <image>../assets/images/1729622691987.jpg</image>
+    <id>YM2X005</id>
+  </movie>
+</movies>

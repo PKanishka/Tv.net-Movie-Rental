@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rentals>
+  <rental>
+    <packageID>PKGHGLUSM53I</packageID>
+    <userEmail>pasindukanishka59@gmail.com</userEmail>
+    <deliveryAddress>no 11/15,Bandaranayeka mawatha,</deliveryAddress>
+    <contactNumber>0786081150</contactNumber>
+    <returnDate>2024-10-24</returnDate>
+    <movies>
+      <movie>
+        <id>YM2X003</id>
+      </movie>
+      <movie>
+        <id>AB123</id>
+      </movie>
+    </movies>
+  </rental>
+  <rental>
+    <packageID>PKGAV9E4I13Z</packageID>
+    <userEmail>pasindukanishka59@gmail.com</userEmail>
+    <deliveryAddress>No 11/15, Bandaranayaka mawatha, Kahawattha.</deliveryAddress>
+    <contactNumber>0765900024</contactNumber>
+    <returnDate>2024-10-26</returnDate>
+    <movies>
+      <movie>
+        <id>YM2X002</id>
+      </movie>
+    </movies>
+  </rental>
+  <rental>
+    <packageID>PKGXSF7LTACN</packageID>
+    <userEmail>pasindukanishka59@gmail.com</userEmail>
+    <deliveryAddress>no 11/15,Bandaranayeka mawatha,</deliveryAddress>
+    <contactNumber>0786081150</contactNumber>
+    <returnDate>2024-10-25</returnDate>
+    <movies>
+      <movie>
+        <id>YM2X001</id>
+      </movie>
+    </movies>
+  </rental>
+  <rental>
+    <packageID>PKG8TT8WPBX7</packageID>
+    <userEmail>pasindukanishka59@gmail.com</userEmail>
+    <deliveryAddress>no 11/15,Bandaranayeka mawatha,</deliveryAddress>
+    <contactNumber>0786081150</contactNumber>
+    <returnDate>2024-10-23</returnDate>
+    <movies>
+      <movie>
+        <id>YM2X005</id>
+      </movie>
+    </movies>
+  </rental>
+</rentals>

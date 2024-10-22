@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<users>
+  <user>
+    <nic>992203030V</nic>
+    <email>pasindukanishka59@gmail.com</email>
+    <password>$2a$10$YxtFpuGq2fHJAtZLceAp0.Nopv5JTd8iiYtqveQszx3KuTygXcNta</password>
+  </user>
+  <user>
+    <nic>000000000V</nic>
+    <email>admin@test.com</email>
+    <password>$2a$10$M7HSUx65VX4npirLXpj.yuXsCdRFmOklXO3an6iZEOLgVb6m4VXc.</password>
+  </user>
+</users>

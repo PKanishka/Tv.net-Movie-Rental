@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Account - TV.net</title>
+    <link rel="stylesheet" href="../assets/styles/styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <a href="#">Tv.net</a>
+    </header>
+
+    <!-- Title Bar -->
+    <div class="title-bar">
+        <span>Create Account</span>
+    </div>
+
+    <!-- Registration Form -->
+    <div class="login-container">
+        <div class="login-box">
+            <img src="../assets/images/user.png" alt="User Avatar" class="avatar">
+            <h2>Create New Account.</h2>
+            <form id="registrationForm">
+                <div class="form-group">
+                    <label for="nic">NIC :</label>
+                    <span id="nicError" class="error-message" style="color: red; display: none;"></span>
+                </div>
+                <input type="text" id="nic" name="nic" placeholder="NIC" required>
+            
+                <div class="form-group">
+                    <label for="username">Email :</label>
+                    <span id="emailError" class="error-message" style="color: red; display: none;"></span>
+                </div>
+                <input type="text" id="username" name="username" placeholder="Email" required>
+            
+                <div class="form-group">
+                    <label for="password">Password :</label>
+                    <span id="passwordError" class="error-message" style="color: red; display: none;"></span>
+                </div>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            
+                <div class="form-group">
+                    <label for="confirm_password">Re-enter Password :</label>
+                    <span id="confirmPasswordError" class="error-message" style="color: red; display: none;"></span>
+                </div>
+                <input type="password" id="confirm_password" name="confirm_password" placeholder="Re-enter Password" required>
+            
+                <div class="button-container">
+                    <button type="submit" class="btn btn-create">Create Account</button>
+                    <button type="button" class="btn btn-back">Back</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="../scripts/register.js"></script>
+</body>
+</html>

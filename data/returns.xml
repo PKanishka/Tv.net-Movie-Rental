@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<returns>
+  <return>
+    <packageID>PKGYEE4ELW4A</packageID>
+    <userEmail>pasindukanishka59@gmail.com</userEmail>
+    <returnDate>2024-10-22</returnDate>
+    <movies>
+      <movie>
+        <id>YM2X003</id>
+      </movie>
+    </movies>
+  </return>
+  <return>
+    <packageID>PKGIMPBPN5AO</packageID>
+    <userEmail>pasindukanishka59@gmail.com</userEmail>
+    <returnDate>2024-10-22</returnDate>
+    <movies>
+      <movie>
+        <id>YM2X002</id>
+      </movie>
+    </movies>
+  </return>
+  <return>
+    <packageID>PKGXVIUV220F</packageID>
+    <userEmail>pasindukanishka59@gmail.com</userEmail>
+    <returnDate>2024-10-22</returnDate>
+    <movies>
+      <movie>
+        <id>YM2X001</id>
+      </movie>
+    </movies>
+  </return>
+  <return>
+    <packageID>PKGAQU5R3WE4</packageID>
+    <userEmail>pasindukanishka59@gmail.com</userEmail>
+    <returnDate>2024-10-22</returnDate>
+    <movies>
+      <movie>
+        <id>YM2X005</id>
+      </movie>
+    </movies>
+  </return>
+</returns>

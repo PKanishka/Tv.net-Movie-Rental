@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - TV.net</title>
+    <link rel="stylesheet" href="../assets/styles/styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <a href="#">Tv.net</a>
+    </header>
+
+    <!-- Title Bar -->
+    <div class="title-bar">
+        <span>Login</span>
+    </div>
+
+     <!-- Login Form -->
+     <div class="login-container">
+        <div class="login-box">
+            <img src="../assets/images/user.png" alt="User Avatar" class="avatar">
+            <h2>Please Login !!!</h2>
+            <form id="loginForm">
+                <label for="username">Username :</label>
+                <input type="text" id="username" name="username" placeholder="Username" required>
+                <label for="password">Password :</label>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+                <div class="button-container">
+                    <button type="button" class="btn btn-create" onclick="window.location.href='register.html'">Create Account</button>
+                    <button type="submit" class="btn btn-login">Login</button>
+                </div>
+            </form>
+            <p id="loginErrorMessage" style="color: red; display: none;"></p>
+            <p id="successMessage" style="color: green; display: none;"></p>
+        </div>
+    </div>
+    <script src="../scripts/auth.js"></script>
+</body>
+</html>
