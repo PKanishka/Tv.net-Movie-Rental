@@ -7,6 +7,6 @@ delete also worked fine but i removed those for now and within 24h i will handle
 admin login--
 admin@test.com
 admin123
-profile dashboard clik on email
+profile dashboard click on email
 finalize rental click on cart
-finalize return click on cart
+finalize return click on the cart
